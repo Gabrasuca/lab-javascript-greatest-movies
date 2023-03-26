@@ -1994,10 +1994,12 @@ const movies = [
   },
   {
     title: 'Dead Poets Society',
-    year: 1989,
+    c: 1989,
     director: 'Peter Weir',
     duration: '2h 8min',
     genre: ['Comedy', 'Drama'],
     score: 8
   }
 ];
+
+module.exports = movies
